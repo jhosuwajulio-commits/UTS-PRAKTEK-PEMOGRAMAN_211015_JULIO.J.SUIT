@@ -46,3 +46,4 @@
         <x-inertia::app />
     </body>
 </html>
+
