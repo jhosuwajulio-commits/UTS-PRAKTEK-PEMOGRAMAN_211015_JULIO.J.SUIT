@@ -12,6 +12,7 @@
 
     <main>
         @yield('content')
+        @extends('layouts.app')
     </main>
 </body>
 </html>
