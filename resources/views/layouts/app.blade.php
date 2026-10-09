@@ -11,8 +11,13 @@
     </nav>
 
     <main>
+        @if (session('success'))
+    <div class="alert success">
+        {{ session('success') }}
+    </div>
+@endif
+
         @yield('content')
-        @extends('layouts.app')
     </main>
 </body>
 </html>
