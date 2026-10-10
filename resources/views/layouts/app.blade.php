@@ -8,6 +8,7 @@
 <body>
     <nav>
         <a href="{{ route('books.index') }}">Data Buku</a>
+        <a href="{{ route('films.index') }}">Data Film</a>
     </nav>
 
     <main>
